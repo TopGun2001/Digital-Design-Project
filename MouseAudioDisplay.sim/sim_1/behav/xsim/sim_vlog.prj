@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../MouseAudioDisplay.srcs/sources_1/new" \
+"../../../../MouseAudioDisplay.srcs/sources_1/imports/Desktop/Audio_Input.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/Audio_Intensity.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/DFF.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/imports/Desktop/Oled_Display.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/Top_Student.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/audio_emoji.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/button_game_logic.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/button_pressed.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/button_reaction.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/clock_divider.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/display_intensity.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/display_intensity_led.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/display_oled.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/get_coordinates.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/group_task.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/mouse_driver.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/random_colors.v" \
+"../../../../MouseAudioDisplay.srcs/sim_1/new/sim.v" \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/volume_bar.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
